@@ -1,0 +1,15 @@
+﻿<html data-ng-app="">
+<head>
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>-->
+	<script src="../../Script/angular.js"></script>
+
+</head>
+	<body>
+		Enter Cost : <input type="text" id="cost" data-ng-model="cost" /><br/>
+		{{cost | currency}}<br/>
+		{{cost | date}}<br/>
+		{{cost | number}}<br/>
+		{{cost | uppercase}}
+
+	</body>
+</html>
