@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+<html data-ng-app="helloAngularApp">
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js">	</script>
+	<script src="DependencyInjection.js"></script>
+</head>
+	<body data-ng-controller="TestController">
+		Enter Number: 
+		<input type="text" data-ng-model="number"/><br/>
+		Prime Factor: {{result}} <br/>
+		<button data-ng-click="getPrimeFactors(number)">Get Prime Factors</button>
+	</body>
+</html>
