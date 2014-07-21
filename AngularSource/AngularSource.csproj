@@ -57,16 +57,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Features\Directives\directive.js" />
-    <Content Include="Features\Directives\Directives.html" />
-    <Content Include="Features\Expression\View.html" />
-    <Content Include="Features\Filter\Filter.html" />
-    <Content Include="Features\TwoWayDataBinding\View.html" />
-    <Content Include="Introduction\View.html" />
+    <Content Include="Features\DependencyInjection\DependencyInjection.html" />
+    <Content Include="Features\DependencyInjection\DependencyInjection.js" />
+    <Content Include="Features\Directive\Directive.html" />
+    <Content Include="Features\Directive\Directive.js" />
+    <Content Include="Features\Filters\Filters.html" />
+    <Content Include="Features\TwoWayDataBinding\TwoWayDataBinding.html" />
+    <Content Include="HelloWorld\HelloWorld.html" />
+    <Content Include="MVC\controller.js" />
+    <Content Include="MVC\View.html" />
     <Content Include="Script\angular.js" />
     <Content Include="Web.config" />
-    <Content Include="WhyAngular\helloAngularApp.js" />
-    <Content Include="WhyAngular\View.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
